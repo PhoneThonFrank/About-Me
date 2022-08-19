@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Frank</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="pp2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h2><b>Frank</b></h2>
+   
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Home</i></a> 
+    <a href="mailto:phonethonhlain22@gmail.com" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact</a>
+    <a href="https://www.facebook.com/profile.php?id=100074084199546" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-facebook fa-fw w3-margin-right"></i>FaceBook</a>
+    <a href="https://www.youtube.com/channel/UCgYN6HlXx9xZSu-NS1Hpo5g" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-youtube fa-fw w3-margin-right"></i>YouTube</a>
+  
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="pp2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b></b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      
+    </div>
+  </header>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="p2.png" style="width:100%">
+  <div class="text">My Favorite Profile Picture</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="Profile Picture.png" style="width:100%">
+  <div class="text">My Favorite Cat Picture</div>
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  
+ 
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="Profile Picture.png" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="p2.png" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16" id="about">
+   <h2>My Projects</h2>
+    <div class="w3-col m6">
+      <iframe src="https://scratch.mit.edu/projects/693088368/embed" allowtransparency="true" width="350" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+  <div class="w3-col m6">
+  <iframe src="https://scratch.mit.edu/projects/686954658/embed" allowtransparency="true" width="350" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+  <div class="w3-col m6">
+  <iframe src="https://scratch.mit.edu/projects/654698960/embed" allowtransparency="true" width="350" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+  <div class="w3-col m6">
+ <a href="project.html">   <h1>More</h1></a>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>I'm Phone Thon Hlain@Frank. I am a student from KBTC International School. I am 12 years old. My best friend is <a href="https://linktr.ee/pikaeevee">Smarty</a>.</p>
+    <hr>
+    
+    <h4>My Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>HTML</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-red w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>#CSS</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-blue w3-padding w3-center" style="width:85%">88%</div>
+    </div>
+  
+
+    <hr>
+    
+      
+     
+      
+      
+  
+<div id="contact">
+
+  <br>
+  <div id="cbu">
+    <a href="mailto:phonethnhlain22@gmail.com">
+<button>Contact</button>
+    </a>
+    <br><br>
+    <a href="callto:09787456985">
+      <button>Call</button>
+    </a>
+  </div>
+</div>
+   
+
+
+    
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

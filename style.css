@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://images.assetsdelivery.com/compings_v2/sunwart/sunwart1903/sunwart190300299.jpg);
+}
+
+#contact{
+    text-align: center;
+height: 120px;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.419);
+border-radius: 25px;
+}
+
+#cbu{
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+button{
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(0, 115, 255);
+    cursor: pointer;
+}
+
+#h123{
+    text-align: center;
+    color: white;
+}
+
+#bp{
+    text-align: center;
+}
+
+#sb{
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    background-color: rgb(0, 140, 255);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    width: 400px;
+    border-radius: 25px;
+    background-color: rgb(0, 130, 252);
+    cursor: pointer;
+}
